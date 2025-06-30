@@ -24,7 +24,7 @@ public class Player extends Character implements KeyListener{
 			 GameWorld.playerBullets.add(new PlayerBullet(x, y, 0, -7));
 			   
 			 GameWorld.playerBullets.add(new PlayerBullet(x, y, 5, -5));
-			System.out.println("弾の数="+
+			 System.out.println("弾の数="+
 					GameWorld.playerBullets.size());
 			
 			
