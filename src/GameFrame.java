@@ -27,6 +27,8 @@ public class GameFrame extends MyFrame {
 				setColor(0,0,0);
 				drawString("クリア!",100,200,40);
 				if(GameWorld.enterPressed) {
+					repaint();
+				    sleep(2.0); 
 					GameWorld.stage++;
 					break;
 				}
