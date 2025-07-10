@@ -6,7 +6,7 @@ public class DropEnemy extends Enemy {
 	}
 	public void move() {
         super.move();  
-        vy = 0.1 + GameWorld.stage;
+        vy = vy + 0.5;
     }
 	public void draw(MyFrame f) {
         f.setColor(0, 128, 0);
